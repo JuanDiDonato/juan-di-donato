@@ -1,0 +1,19 @@
+main {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto';
+    background: #ffffff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #e2e8ee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #e2e8ee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#welcome, #presentation{
+    display: flex;
+    justify-content: center;
+}
+
+#hobbies, #obj, #apt , #skl{
+    display: flex;
+    justify-content:space-around
+}

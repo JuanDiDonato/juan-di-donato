@@ -1,0 +1,12 @@
+#box {
+    position: relative;
+    bottom: 105vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
