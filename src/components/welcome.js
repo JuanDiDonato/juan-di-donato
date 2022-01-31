@@ -9,7 +9,8 @@ const box = {
     top: 0,
     left: 0,
     width: window.screen.width,
-    height: window.screen.height,
+    fontSize:'120%'
+
 }
 const messageMarkup = {
     color: '#0061ff',
@@ -37,9 +38,9 @@ const WelcomeMessage = () => {
                     Juan Di Donato
                 </h1>
                 <img style={image} src={Perfil} alt="Juan Di Donato"/>
-                <h2>
+                <h3>
                     Backend Developer
-                </h2>
+                </h3>
                 <h6>Hecho con amor</h6>
             </div>
             <div style={buttons}>

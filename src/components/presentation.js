@@ -5,7 +5,7 @@ import '../assets/presentation.css'
 
 const box = {
     width: window.screen.width,
-    height: window.screen.height * 1.8,
+    marginTop: '15vh'
 }
 
 const Presentation = () => {
@@ -95,7 +95,7 @@ const Presentation = () => {
                         </h2>
                         <div>
                             <button onClick={() => next()}>volver</button>
-                            <button onClick={() => window.scroll(0,window.screen.height * 1.7)}>continuar</button>
+                            <button onClick={() => window.scroll(0,window.screen.height * 1.85)}>continuar</button>
                         </div>
                     </div>
                 

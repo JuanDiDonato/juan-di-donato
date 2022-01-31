@@ -3,7 +3,7 @@
     align-items: center;
     visibility: visible;
     position: relative;
-    top: 35vh
+    margin-top: 45vh;
 }
 .cover {
     display: none;

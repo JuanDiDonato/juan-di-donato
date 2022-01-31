@@ -32,7 +32,6 @@ const box = {
     position: 'relative',
     justifyContent: 'center',
     alignItem:'center',
-    bottom: '120vh',
 }
 const grid = {
     display: 'grid',

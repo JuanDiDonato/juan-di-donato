@@ -8,7 +8,6 @@ import '../assets/hobbies.css'
 
 const box = {
     width: window.screen.width,
-    height: window.screen.height ,
 }
 
 const Hobbies = () => {

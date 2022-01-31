@@ -5,10 +5,10 @@ import obj from '../images/objetivos.png'
 
 const box = {
     position: 'relative',
-    bottom: '140vh',
     textAlign: 'center',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    padding: '7%'
 }
 
 const text = {
@@ -27,7 +27,7 @@ const Objectives = () => {
                 <h2>
                     Metas!
                 </h2>
-                <h3 style={text}>
+                <h3 >
                 A corto plazo quiero continuar desarrollando mis capacidades y conceguir un trabajo 
                 para profesionalizarme mas. Python y JavaScript son lenguajes que me gustan, asi que 
                 seguir progresando con Node js o Django REST tambien es un objtivo. 

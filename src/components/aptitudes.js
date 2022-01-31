@@ -4,13 +4,11 @@ const box = {
     position: 'relative',
     justifyContent: 'center',
     alignItem:'center',
-    bottom: '100vh'
 }
 const grid = {
     display: 'grid',
     gridTemplateColumns: '33% 33% 33%',
     position: 'relative',
-    bottom: '30vh',
     paddingTop: '30px',
     paddingBottom: '30px',
     backgroundColor: ' #9898983d'

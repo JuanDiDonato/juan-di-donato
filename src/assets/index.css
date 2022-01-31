@@ -1,11 +1,13 @@
 main {
-    padding: 0%;
-    margin: 0%;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
     font-family: 'Roboto';
+    font-weight: 700;
     background: #ffffff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffffff, #e2e8ee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ffffff, #e2e8ee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 #welcome, #presentation{
@@ -13,7 +15,7 @@ main {
     justify-content: center;
 }
 
-#hobbies, #obj, #apt , #skl{
+#hobbies, #obj, #apt , #skl ,#ftr{
     display: flex;
     justify-content:space-around
 }
