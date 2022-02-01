@@ -1,9 +1,7 @@
-
 .card-izq {
     display: grid;
     grid-template-columns: 40% 60%;
     background-color: #00489b3d;
-    
 }
 .card-izq-img{
     font-size: 150%;
@@ -18,4 +16,11 @@
 }
 .card-izq h2 {
     font-family: 'Raleway'
+}
+
+/* Media query */
+@media (max-width: 500px){
+    .card-izq {
+        grid-template-columns: 100%;
+    }
 }

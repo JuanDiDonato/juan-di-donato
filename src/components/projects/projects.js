@@ -18,8 +18,6 @@ const title = {
   fontFamily: 'Raleway'
 }
 
-
-
 // markup
 const Projects = () => {
   return (

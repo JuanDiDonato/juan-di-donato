@@ -1,20 +1,36 @@
-
 .card-der {
     display: grid;
-    grid-template-columns: 60% 40%; 
+    grid-template-columns: 40% 60%;
+    direction: rtl;
 }
 .card-der-img{
     font-size: 150%;
     margin-top: 5%;
 }
 .card-der-li{
+    direction: ltr;
     text-align: left;
     padding: 5%;
 }
 .card-der-li li{
     margin:2%
+    
 }
-
 .card-der h2 {
     font-family: 'Raleway'
+}
+
+/* Media query */
+@media (max-width: 500px){
+    .card-der {
+        grid-template-columns: 100%;
+    }
+    .card-der-img{
+        position: relative;
+        top: 0;
+    }
+    .card-der-li{
+       position: relative;
+       bottom: 0;
+    }
 }

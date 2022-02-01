@@ -9,7 +9,7 @@ const box = {
     position: "relative",
     top: 0,
     left: 0,
-    fontSize:'120%'
+    fontSize:'120%',
 }
 const messageMarkup = {
     color: '#0061ff',
@@ -19,9 +19,9 @@ const messageMarkup = {
 const image = {
     width: '220px',
     hight: '220px',
-    border: '1px solid black',
     borderRadius: '100%',
     margin: '5vh',
+    border: '2px solid black'
 }
 const buttons = {
     textAlign: 'center'
@@ -37,13 +37,14 @@ const WelcomeMessage = () => {
   return (
         <div style={box}>
             <div style={messageMarkup}>
-                <h1>
+                <h1 style={title}>
                     Juan Di Donato
                 </h1>
-                <img style={image} src={Perfil} alt="Juan Di Donato"/>
                 <h3 style={title}>
                     Software Developer
                 </h3>
+                <img style={image} src={Perfil} alt="Juan Di Donato"/>
+
             </div>
             <div style={buttons}>
                 <button onClick={() => window.scroll(0,window.screen.height * 0.88)}><img src={arrrow} alt="arrow"/></button>

@@ -17,16 +17,16 @@ import docker from '../images/docker.png'
 // styles
 import '../assets/skills.css'
 
-const box = {
-    position: 'relative',
-    justifyContent: 'center',
-    alignItem:'center',
-}
 const grid = {
     display: 'grid',
     gridTemplateColumns: '33% 33% 33%',
     position: 'relative',
     margin: '5%'
+}
+const box = {
+    position: 'relative',
+    justifyContent: 'center',
+    alignItem:'center',
 }
 const image = {
     marginLeft: '5%'
@@ -38,6 +38,11 @@ const text = {
 }
 const title = {
     fontFamily: 'Raleway'
+}
+
+// responsive verification
+if(window.screen.width <= 500){
+    grid['gridTemplateColumns'] = '100%'
 }
 
 

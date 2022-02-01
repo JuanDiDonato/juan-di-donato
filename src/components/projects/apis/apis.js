@@ -12,6 +12,10 @@ import api from '../../../images/api.png'
 const Apis = () => {
   return (
     <div className="card-der apis">
+        <div className="card-der-img">
+            <h2>Api's REST</h2>
+            <img src={api} alt="apis"/>
+        </div>
         <div className="card-der-li">
             <ul>
                 <li>
@@ -40,10 +44,6 @@ const Apis = () => {
                 </div>
                 
             </ul>
-        </div>
-        <div className="card-der-img">
-            <h2>Api's REST</h2>
-            <img src={api} alt="apis"/>
         </div>
     </div>
 

@@ -1,10 +1,5 @@
 import * as React from "react"
 
-const box = {
-    position: 'relative',
-    justifyContent: 'center',
-    alignItem:'center',
-}
 const grid = {
     display: 'grid',
     gridTemplateColumns: '33% 33% 33%',
@@ -14,14 +9,23 @@ const grid = {
     backgroundColor: ' #9898983d'
 }
 
+const box = {
+    position: 'relative',
+    justifyContent: 'center',
+    alignItem:'center',
+}
 const text = {
     paddingRight: '5%',
     paddingLeft: '5%',
     paddingTop: '4%',
 }
-
 const title = {
     fontFamily: 'Raleway'
+}
+
+// responsive verification
+if(window.screen.width <= 500){
+    grid['gridTemplateColumns'] = '100%'
 }
 
 const Aptitudes = () => {
