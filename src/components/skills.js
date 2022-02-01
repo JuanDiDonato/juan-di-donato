@@ -3,8 +3,6 @@ import * as React from "react"
 // logos
 import flask from '../images/flask.png'
 import python from '../images/python.png'
-import html from '../images/html.png'
-import css from '../images/css.png'
 import js from '../images/javascript.png'
 import react from '../images/react.png'
 import mysql from '../images/mysql.png'
@@ -12,17 +10,8 @@ import git from '../images/git.png'
 import bs from '../images/bs.png'
 import tux from '../images/tux.png'
 import node from '../images/node.png'
-import sqlite from '../images/sqlite.png'
-import steam from '../images/steam.png'
-import discord from '../images/discord.png'
-import instagram from '../images/instagram.png'
-import spotify from '../images/spotify.png'
-import coingecko from '../images/coingecko.png'
-import mercadoPago from '../images/mercadoPago.png'
 import django from '../images/django.png'
 import sequelize from '../images/sequelize.png'
-import telegram from '../images/telegram.png'
-import heroku from '../images/heroku.png'
 import docker from '../images/docker.png'
 
 // styles
@@ -42,19 +31,22 @@ const grid = {
 const image = {
     marginLeft: '5%'
 }
-
 const text = {
     paddingRight: '5%',
     paddingLeft: '5%',
     paddingTop: '4%',
 }
+const title = {
+    fontFamily: 'Raleway'
+}
+
 
 
 const Skills = () => {
     return (
         <div style={box}>
             <div style={{textAlign: 'center'}}>
-                <h2>
+                <h2 style={title}>
                     Lenguajes y frameworks
                 </h2>
             </div>

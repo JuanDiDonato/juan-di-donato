@@ -11,6 +11,10 @@ const box = {
     padding: '7%'
 }
 
+const title = {
+    fontFamily: 'Raleway'
+}
+
 const text = {
     paddingRight: '5%',
     paddingLeft: '5%',
@@ -24,8 +28,8 @@ const Objectives = () => {
                 <img src={obj} alt="objectives"/>
             </div>
             <div>
-                <h2>
-                    Metas!
+                <h2 style={title}>
+                    Metas
                 </h2>
                 <h3 >
                 A corto plazo quiero continuar desarrollando mis capacidades y conceguir un trabajo 

@@ -14,13 +14,18 @@ const box = {
     textAlign: 'center'
 }
 
+const title = {
+  fontFamily: 'Raleway'
+}
+
+
 
 // markup
 const Projects = () => {
   return (
     <div style={box}>
         <div style={{marginBottom: '5%'}}>
-            <h2>
+            <h2 style={title}>
                 Algunos proyectos realizados
             </h2>
         </div>

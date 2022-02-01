@@ -1,30 +1,27 @@
 import * as React from "react"
 
 const pos = {
-    position: 'relative',
-    bottom: '0',
     display: 'grid',
     gridTemplateColumns: '25% 25% 25% 25%',
 }
 
 const element = {
-    margin: '5%',
-    padding: '5%',
-    textAlign: 'center'
+    textAlign: 'center',
 }
 const text = {
-    backgroundColor: '#000000',
-    color: '#FFFFFF',
-    height: '25vh',
+    color: '#000000',
     width: '100%',
     textAlign: 'center'
+}
+const end = {
+    position: 'relative',
+    bottom : '0px'
 }
 
 // markup
 const Footer = () => {
   return (
     <div style={text}>
-        <h4>Creado por Juan Di Donato</h4>
         <div style={pos}>
             <div style={element}>
                 <a href="https://t.me/Juan_didonato" target="null">Telegram</a>
@@ -39,6 +36,7 @@ const Footer = () => {
                 <a href="https://github.com/JuanDiDonato" target="null">GitHub</a>
             </div>
         </div>
+        <h4 style={end}>Creado por Juan Di Donato</h4>
     </div>
 
   )

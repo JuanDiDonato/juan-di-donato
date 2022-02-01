@@ -1,3 +1,6 @@
+/* estilo de las clases de la presentacion */
+
+/* se encargan de mostrar / ocultar los textos en pantalla */
 
 .active {
     text-align: center;
@@ -11,6 +14,8 @@
     position: absolute;
     margin-top: 45vh
 }
+
+/* estilo del texto */
 h2 {
     padding-right: 5%;
     padding-left: 5%;

@@ -1,5 +1,9 @@
 import * as React from "react"
 
+// logos
+import right_arrow from '../images/derecha.png'
+import arrow from '../images/abajo.png'
+
 // styles
 import '../assets/presentation.css'
 
@@ -65,7 +69,7 @@ const Presentation = () => {
                     <div id="uno" className="active">
                         <h1>¿Quien soy? </h1>
                         <div>
-                            <button onClick={() => next()}>siguiente</button>
+                            <button onClick={() => next()}><img src={right_arrow} alt="arrow"/></button>
                         </div>
                     </div>
                     <div id="dos" className="active cover">
@@ -74,7 +78,7 @@ const Presentation = () => {
                             Vivo y estudio en la ciudad de Mar del Plata, Buenos Aires, Argentina
                         </h2>
                         <div>
-                            <button onClick={() => next()}>siguiente</button>
+                            <button onClick={() => next()}><img src={right_arrow} alt="arrow"/></button>
                         </div>
                     </div>
                     <div id="tres" className="cover">
@@ -82,7 +86,7 @@ const Presentation = () => {
                             y actualmente estoy estudiando Ingenieria Informatica en la Univercidad Nacional de Mar del Plata.
                         </h2>
                         <div>
-                            <button onClick={() => next()}>siguiente</button>
+                            <button onClick={() => next()}><img src={right_arrow} alt="arrow"/></button>
                         </div>
                     </div>
                     <div id="cuatro" className="cover">
@@ -90,8 +94,9 @@ const Presentation = () => {
                             FullStack Developer
                         </h2>
                         <div>
-                            <button onClick={() => next()}>volver</button>
-                            <button onClick={() => window.scroll(0,window.screen.height * 1.85)}>continuar</button>
+                            <button onClick={() => window.scroll(0,window.screen.height * 1.85)}>
+                                <img src={arrow} alt="arrow"/>
+                            </button>
                         </div>
                     </div>
                 

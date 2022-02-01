@@ -1,3 +1,4 @@
+/* poscicion del container principal */
 main {
     position: absolute;
     top: 0;
@@ -7,18 +8,32 @@ main {
     font-weight: 700;
 }
 
+/* estilo de los links */
 a{
     text-decoration: none;
-    color:#0048a7
+    color:#003477;
+    font-family: 'Raleway'
 }
 
+/* botones */
+button{
+    text-decoration: none;
+    border:none;
+    padding: 3%;
+}
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+}
 
+/* display de cada componente*/
 #welcome, #presentation{
+    background-color: #e9e9e9;
     display: flex;
     justify-content: center;
 }
-
 #hobbies, #obj, #apt , #skl , #prj ,#ftr{
     display: flex;
-    justify-content:space-around
+    justify-content:space-around;
+    background-color: #e9e9e9;
 }

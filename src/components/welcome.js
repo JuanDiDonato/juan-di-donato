@@ -2,20 +2,19 @@ import * as React from "react"
 
 // images
 import Perfil from '../images/perfil.jpg'
+import arrrow from '../images/abajo.png'
 
 // styles
 const box = {
     position: "relative",
     top: 0,
     left: 0,
-    width: window.screen.width,
     fontSize:'120%'
-
 }
 const messageMarkup = {
     color: '#0061ff',
     textAlign: 'center',
-    marginTop: '15vh'
+    marginTop: '10vh'
 }
 const image = {
     width: '220px',
@@ -28,6 +27,10 @@ const buttons = {
     textAlign: 'center'
 }
 
+const title = {
+    fontFamily: 'Raleway'
+}
+
 
 // markup
 const WelcomeMessage = () => {
@@ -38,13 +41,12 @@ const WelcomeMessage = () => {
                     Juan Di Donato
                 </h1>
                 <img style={image} src={Perfil} alt="Juan Di Donato"/>
-                <h3>
-                    Backend Developer
+                <h3 style={title}>
+                    Software Developer
                 </h3>
-                <h6>Hecho con amor</h6>
             </div>
             <div style={buttons}>
-                <button onClick={() => window.scroll(0,window.screen.height)}>Siguiente</button>
+                <button onClick={() => window.scroll(0,window.screen.height * 0.88)}><img src={arrrow} alt="arrow"/></button>
             </div>
         </div>
   )
