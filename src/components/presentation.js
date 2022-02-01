@@ -4,9 +4,9 @@ import * as React from "react"
 import '../assets/presentation.css'
 
 const box = {
-    width: window.screen.width,
     marginTop: '15vh'
 }
+
 
 const Presentation = () => {
 
@@ -32,7 +32,6 @@ const Presentation = () => {
 
     // carrousel
     const next = () => {
-
 
     if(uno.classList[0] === 'active'){
         uno.classList.add('cover')
@@ -60,12 +59,9 @@ const Presentation = () => {
     }
 
 }
-
-
     return (
         <div style={box}>
             <div>
-        
                     <div id="uno" className="active">
                         <h1>¿Quien soy? </h1>
                         <div>

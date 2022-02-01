@@ -1,0 +1,18 @@
+
+.card-izq {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #00489b3d;
+    
+}
+.card-izq-img{
+    font-size: 150%;
+    margin-top: 5%;
+}
+.card-izq-li{
+    text-align: left;
+    padding: 5%;
+}
+.card-izq-li li{
+    margin:2%
+}

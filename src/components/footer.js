@@ -4,7 +4,7 @@ const pos = {
     position: 'relative',
     bottom: '0',
     display: 'grid',
-    gridTemplateColumns: '33% 33% 33%',
+    gridTemplateColumns: '25% 25% 25% 25%',
 }
 
 const element = {
@@ -15,7 +15,7 @@ const element = {
 const text = {
     backgroundColor: '#000000',
     color: '#FFFFFF',
-    height: '50vh',
+    height: '25vh',
     width: '100%',
     textAlign: 'center'
 }
@@ -27,13 +27,16 @@ const Footer = () => {
         <h4>Creado por Juan Di Donato</h4>
         <div style={pos}>
             <div style={element}>
-                Telegram
+                <a href="https://t.me/Juan_didonato" target="null">Telegram</a>
             </div>
             <div style={element}>
-                Instagram
+                <a href="https://www.instagram.com/juan_didonato/?hl=es-la" target="null">Instagram</a>
             </div>
             <div style={element}>
-                Linkedin
+                <a href="https://www.linkedin.com/in/juandidonato/" target="null">Linkedin</a>
+            </div>
+            <div style={element}>
+                <a href="https://github.com/JuanDiDonato" target="null">GitHub</a>
             </div>
         </div>
     </div>

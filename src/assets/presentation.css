@@ -1,12 +1,15 @@
+
 .active {
     text-align: center;
     align-items: center;
     visibility: visible;
-    position: relative;
-    margin-top: 45vh;
+    position:relative;
+    padding-top: 40vh;
 }
 .cover {
-    display: none;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 45vh
 }
 h2 {
     padding-right: 5%;

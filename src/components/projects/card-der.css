@@ -1,0 +1,16 @@
+
+.card-der {
+    display: grid;
+    grid-template-columns: 60% 40%; 
+}
+.card-der-img{
+    font-size: 150%;
+    margin-top: 5%;
+}
+.card-der-li{
+    text-align: left;
+    padding: 5%;
+}
+.card-der-li li{
+    margin:2%
+}

@@ -6,15 +6,13 @@ import hobbies from '../images/hobbies.png'
 // styles
 import '../assets/hobbies.css'
 
-const box = {
-    width: window.screen.width,
-}
+
 
 const Hobbies = () => {
     return (
-        <div id='box' style={box}>
+        <div id='box'>
             <div >
-                <img src={hobbies} alt="hobbies"/>
+                <img  src={hobbies} alt="hobbies"/>
             </div>
             <div>
                 <h2>

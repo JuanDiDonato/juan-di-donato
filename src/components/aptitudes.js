@@ -50,7 +50,7 @@ const Aptitudes = () => {
                     </h2>
                     <h3>
                     Me gusta trabajar en equipo con personas apasionadas y comprometidas 
-                    con la programacion. Cuando tengo una idea, me gusta compartirla com mi grupo 
+                    con la programacion, poniendo en practica metodologías agiles como XP y SCRUM. Cuando tengo una idea, me gusta compartirla com mi grupo 
                     de trabajo y debatir sobre ella!
                     </h3>
                 </div>

@@ -5,17 +5,20 @@ main {
     width: 100%;
     font-family: 'Roboto';
     font-weight: 700;
-    background: #ffffff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffffff, #e2e8ee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffffff, #e2e8ee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+a{
+    text-decoration: none;
+    color:#0048a7
+}
+
 
 #welcome, #presentation{
     display: flex;
     justify-content: center;
 }
 
-#hobbies, #obj, #apt , #skl ,#ftr{
+#hobbies, #obj, #apt , #skl , #prj ,#ftr{
     display: flex;
     justify-content:space-around
 }

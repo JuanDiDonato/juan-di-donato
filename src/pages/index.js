@@ -7,6 +7,7 @@ import Hobbies from "../components/hobbies"
 import Objectives from "../components/objectives"
 import Aptitudes from "../components/aptitudes"
 import Skills from "../components/skills"
+import Projects from "../components/projects/projects"
 import Footer from "../components/footer"
 
 // styles
@@ -41,7 +42,11 @@ const IndexPage = () => {
       <div id="skl">
         <Skills/>
       </div>
-      {/* Skills */}
+      {/* Projects */}
+      <div id="prj">
+        <Projects/>
+      </div>
+      {/* Footer */}
       <div id="ftr">
         <Footer/>
       </div>
