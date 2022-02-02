@@ -1,5 +1,38 @@
-/* estilos para cada skill */
+/* poscion del container */
+.sk-box{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+/* grilla */
+.sk-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    position: relative;
+    margin: 5%;
+}
+/* imagenes y texto */
+.sk-box img {
+    margin-left: 5%;
+}
+.sk-box h2 {
+    font-family: Raleway;
+}
+.sk-box h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+}
 
+/* media query */
+@media (max-width: 768px){
+    .sk-grid{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+
+/* estilos para cada skill */
 #js {
     background-color:  #FFC3003d ;
     border-radius: 10px;

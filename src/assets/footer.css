@@ -1,0 +1,32 @@
+.ft-text{
+    text-align: center;
+    color : #000000
+}
+.ft-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.ft-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ft-grid a {
+    margin: 10px
+}
+.ft-grid img{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+/* media query */
+@media (max-width: 768px){
+    .ft-grid{
+        grid-template-columns: 100%;
+    }
+    .ft-grid img {
+        margin-left: 0;
+    }
+}

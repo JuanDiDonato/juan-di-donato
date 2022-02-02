@@ -17,48 +17,21 @@ import docker from '../images/docker.png'
 // styles
 import '../assets/skills.css'
 
-const grid = {
-    display: 'grid',
-    gridTemplateColumns: '33% 33% 33%',
-    position: 'relative',
-    margin: '5%'
-}
-const box = {
-    position: 'relative',
-    justifyContent: 'center',
-    alignItem:'center',
-}
-const image = {
-    marginLeft: '5%'
-}
-const text = {
-    paddingRight: '5%',
-    paddingLeft: '5%',
-    paddingTop: '4%',
-}
-const title = {
-    fontFamily: 'Raleway'
-}
-
 const Skills = () => {
-    // responsive verification
-    if(window.screen.width <= 500){
-        grid['gridTemplateColumns'] = '100%'
-    }
     return (
-        <div style={box}>
+        <div className="sk-box">
             <div style={{textAlign: 'center'}}>
-                <h2 style={title}>
+                <h2>
                     Lenguajes y frameworks
                 </h2>
             </div>
             {/* UNO */}
-            <div style={grid} id="uno">
+            <div className="sk-grid" id="uno">
                 <div id="js">
-                    <div style={image} >
+                    <div>
                         <img src={js} alt="JavaScript"/>
                     </div>
-                    <div style={text}>
+                    <div>
                         <h3>
                         Es el tercer lenguaje que aprendi. Lo primero que hice fueron
                          funciones simples (con fines esteticos y funcionales). 
@@ -68,10 +41,10 @@ const Skills = () => {
                 </div>
 
                 <div id="py">
-                    <div style={image} >
+                    <div>
                         <img src={python} alt="python"/>
                     </div>
-                    <div style={text}>
+                    <div>
                         <h3>
                             Me siento comodo utilizando este lenguaje,
                             se me hizo facil de aprender y lo utilice para varios proyectos.
@@ -80,10 +53,10 @@ const Skills = () => {
                 </div>
 
                 <div id="rc">
-                    <div style={image} >
+                    <div>
                         <img src={react} alt="react"/>
                     </div>
-                    <div style={text}>
+                    <div>
                         <h3>
                         Lo uso actualmente para crear paginas y aplicaciones web.
                          Lo elegi luego de probar otros frameworks como Svelte y Vue Js. 
@@ -94,12 +67,12 @@ const Skills = () => {
             </div>
             
             {/* DOS */}
-            <div style={grid} id="dos">
+            <div className="sk-grid" id="dos">
                 <div id="dj">
-                    <div style={image} >
+                    <div>
                         <img src={django} alt="django"/>
                     </div>
-                    <div style={text}>
+                    <div>
                         <h3>
                         No me agradaba del todo, lo comence a estudiar por lo bien que se
                         habla del framework. Me resulto muy interezante, con todo lo que
@@ -109,10 +82,10 @@ const Skills = () => {
                 </div>
 
                 <div id="nd">
-                    <div style={image} >
+                    <div>
                         <img src={node} alt="node"/>
                     </div>
-                    <div style={text}>
+                    <div>
                         <h3>
                         Node js lo utilizo hace tiempo, para crear y utilizar API's, 
                         y para el desarrollo backend en aplicaciones web.
@@ -122,10 +95,10 @@ const Skills = () => {
                 </div>
 
                 <div id="sq">
-                    <div style={image} >
+                    <div>
                         <img src={sequelize} alt="sequelize"/>
                     </div>
-                    <div style={text}>
+                    <div>
                         <h3>
                             Lo implemente en un ecommerce, es practico y verstail. 
                             Con el, mi codigo quedo mas estructurado, y mejor organizado, 
@@ -136,12 +109,12 @@ const Skills = () => {
             </div>
 
             {/* TRES */}
-            <div style={grid} id="tres">
+            <div className="sk-grid" id="tres">
                 <div id="msql">
-                    <div style={image} >
+                    <div>
                         <img src={mysql} alt="mysql"/>
                     </div>
-                    <div style={text}>
+                    <div >
                         <h3>
                         Es la base de datos que suelo usar en mis proyectos. 
                         Llevo bastante tiempo utilizandola y tengo experiencia en ella.
@@ -150,10 +123,10 @@ const Skills = () => {
                 </div>
 
                 <div id="dck">
-                    <div style={image} >
+                    <div >
                         <img src={docker} alt="docker"/>
                     </div>
-                    <div style={text}>
+                    <div >
                         <h3>
                         Lo implemente cuando comence a desplegar mis apps en heroku.
                         Me sorprendio lo sencillo y rapido que fue subir un proyecto en 
@@ -163,10 +136,10 @@ const Skills = () => {
                 </div>
 
                 <div id="linux">
-                    <div style={image} >
+                    <div >
                         <img src={tux} alt="tux"/>
                     </div>
-                    <div style={text}>
+                    <div>
                         <h3>
                         Amo Linux. Actualmente lo utilizo como sistema operativo principal. 
                         Probe varias distribuciones, desde Ubuntu y sus derivados 
@@ -179,12 +152,12 @@ const Skills = () => {
             </div>
 
             {/* CUATRO */}
-            <div style={grid} id="cuatro">
+            <div className="sk-grid" id="cuatro">
                 <div id="git">
-                    <div style={image} >
+                    <div  >
                         <img src={git} alt="github"/>
                     </div>
-                    <div style={text}>
+                    <div >
                         <h3>
                         Git y Github son muy importantes, desde que aprendi a utilizar git y su control de 
                         versiones, y github para guardar mis proyectos, los uso siempre
@@ -193,10 +166,10 @@ const Skills = () => {
                 </div>
 
                 <div id="bts">
-                    <div style={image} >
+                    <div >
                         <img src={bs} alt="bootstrap"/>
                     </div>
-                    <div style={text}>
+                    <div>
                         <h3>
                         Bootstrap lo utilice muchas veces. 
                         Ahorra mucho tiempo y permite hacer aplicaciones web y paginas web 
@@ -206,10 +179,10 @@ const Skills = () => {
                 </div>
 
                 <div id="flk">
-                    <div style={image} >
+                    <div  >
                         <img src={flask} alt="flask"/>
                     </div>
-                    <div style={text}>
+                    <div>
                         <h3>
                             Utilice Flask para hacer apis con Python. Es muy sencillo
                             gracias a su minimalismo.

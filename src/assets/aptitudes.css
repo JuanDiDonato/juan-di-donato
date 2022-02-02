@@ -1,0 +1,43 @@
+/* poscion del container */
+.ap-box {
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+/* grillas */
+.ap-grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #9898983d;
+}
+.ap-grid2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid #9898983d
+}
+/* textos */
+.ap-box h3 {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 4%;
+}
+.ap-box h2 {
+    font-family: Raleway
+}
+
+/* media query */
+@media (max-width: 768px){
+    .ap-grid {
+        grid-template-columns: 100%;
+    }
+    .ap-grid2 {
+        grid-template-columns: 100%;
+    }
+}
