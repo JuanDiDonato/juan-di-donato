@@ -30,14 +30,15 @@ const text = {
     textAlign: 'center'
 }
 
-// responsive verification
-if(window.screen.width <= 500){
-    grid['gridTemplateColumns'] = '100%'
-    img['marginLeft'] = '0'
-}
+
 
 // markup
 const Footer = () => {
+    // responsive verification
+    if(window.screen.width <= 500){
+        grid['gridTemplateColumns'] = '100%'
+        img['marginLeft'] = '0'
+    }
   return (
     <div style={text}>
         <div style={grid}>

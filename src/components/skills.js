@@ -40,14 +40,11 @@ const title = {
     fontFamily: 'Raleway'
 }
 
-// responsive verification
-if(window.screen.width <= 500){
-    grid['gridTemplateColumns'] = '100%'
-}
-
-
-
 const Skills = () => {
+    // responsive verification
+    if(window.screen.width <= 500){
+        grid['gridTemplateColumns'] = '100%'
+    }
     return (
         <div style={box}>
             <div style={{textAlign: 'center'}}>

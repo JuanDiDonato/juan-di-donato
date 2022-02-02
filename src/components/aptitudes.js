@@ -34,13 +34,14 @@ const title = {
     fontFamily: 'Raleway'
 }
 
-// responsive verification
-if(window.screen.width <= 500){
-    grid['gridTemplateColumns'] = '100%'
-    grid2['gridTemplateColumns'] = '100%'
-}
+
 
 const Aptitudes = () => {
+    // responsive verification
+    if(window.screen.width <= 500){
+        grid['gridTemplateColumns'] = '100%'
+        grid2['gridTemplateColumns'] = '100%'
+    }
     return (
         <div style={box}>
             <div style={grid}>
