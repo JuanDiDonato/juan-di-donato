@@ -8,7 +8,7 @@ import arrow from '../images/abajo.png'
 import '../assets/presentation.css'
 
 const box = {
-    marginTop: '15vh'
+    marginTop: '30vh',
 }
 
 
@@ -67,7 +67,8 @@ const Presentation = () => {
         <div style={box}>
             <div>
                     <div id="uno" className="active">
-                        <h1>¿Quien soy? </h1>
+                        <h1 >¿Quien soy? </h1>
+                        <h1>¡Conoceme! </h1>
                         <div>
                             <button onClick={() => next()}><img src={right_arrow} alt="arrow"/></button>
                         </div>
@@ -94,7 +95,7 @@ const Presentation = () => {
                             FullStack Developer
                         </h2>
                         <div>
-                            <button onClick={() => window.scroll(0,window.screen.height * 1.85)}>
+                            <button onClick={() => window.scrollBy({'top':window.screen.height, 'behavior': 'smooth'})}>
                                 <img src={arrow} alt="arrow"/>
                             </button>
                         </div>

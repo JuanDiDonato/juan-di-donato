@@ -9,10 +9,21 @@ const grid = {
     backgroundColor: ' #9898983d'
 }
 
+const grid2 = {
+    display: 'grid',
+    gridTemplateColumns: '50% 50%',
+    position: 'relative',
+    paddingTop: '30px',
+    paddingBottom: '50px',
+    //backgroundColor: ' #9898983d'
+    border: '5px solid #9898983d',
+}
+
 const box = {
     position: 'relative',
     justifyContent: 'center',
-    alignItem:'center',
+    alignItems:'center',
+    marginBottom: '10vh'
 }
 const text = {
     paddingRight: '5%',
@@ -26,6 +37,7 @@ const title = {
 // responsive verification
 if(window.screen.width <= 500){
     grid['gridTemplateColumns'] = '100%'
+    grid2['gridTemplateColumns'] = '100%'
 }
 
 const Aptitudes = () => {
@@ -63,6 +75,31 @@ const Aptitudes = () => {
                     </h3>
                 </div>
             </div> 
+            <div style={grid2}>
+                <div style={text}>
+                    <h2 style={title}>
+                        Iniciativa
+                    </h2>
+                    <h3 style={text}>
+                    Tengo muchas ganas de trabajar y seguir aprendiendo. 
+                    Constantemente pienso en posibles proyectos que puedan solucionar 
+                    los problemas cotidianos que nos encontramos en la web, 
+                    y en nuestras aplicaciones diarias!
+                    Tambien ofrezco mi ayuda a los demas si lo necesitan.
+                    </h3>
+                </div>
+                <div style={text}>
+                    <h2 style={title}>
+                        Motivacion
+                    </h2>
+                    <h3 style={text}>
+                    ¡Estoy motivado!. La programacion me encanta, hay mucho por hacer
+                     y por aprender a hacer. Quiero expandir mis horizontes, 
+                     para hacer proyectos mas grandes y mejores, y contribuir con el desarrollo
+                     de nuevas aplicaciones y tegnologias.
+                    </h3>
+                </div>
+            </div>
         </div>
 
     )

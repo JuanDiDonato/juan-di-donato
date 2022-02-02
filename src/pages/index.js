@@ -19,19 +19,19 @@ const IndexPage = () => {
     <main>
       <title>Juan Di Donato</title>
       {/* Home message */}
-      <div id="welcome">
+      <div id="welcome" className="wrapper">
         <WelcomeMessage/>
       </div>
       {/* Presentation*/}
-      <div id="presentation">
+      <div id="presentation" className="wrapper">
         <Presentation/>
       </div>
       {/* Hobbies */}
-      <div id='hobbies'>
+      <div id='hobbies' className="wrapper">
         <Hobbies/>
       </div>
       {/* Objectives */}
-      <div id="obj">
+      <div id="obj" className="wrapper">
         <Objectives/>
       </div>
       {/* Aptitudes */}

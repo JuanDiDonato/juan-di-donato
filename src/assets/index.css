@@ -1,3 +1,4 @@
+
 /* poscicion del container principal */
 main {
     position: absolute;
@@ -7,17 +8,16 @@ main {
     font-family: 'Roboto';
     font-weight: 700;
 }
-
 /* estilo de los links */
 a{
     text-decoration: none;
     color:#003477;
     font-family: 'Raleway'
 }
-
 /* botones */
 button{
     text-decoration: none;
+    background-color: transparent;
     border:none;
     padding: 3%;
 }
@@ -37,3 +37,4 @@ button:hover{
     justify-content:space-around;
     background-color: #e9e9e9;
 }
+

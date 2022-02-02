@@ -34,7 +34,8 @@ const title = {
 
 // markup
 const WelcomeMessage = () => {
-  return (
+
+    return (
         <div style={box}>
             <div style={messageMarkup}>
                 <h1 style={title}>
@@ -47,7 +48,7 @@ const WelcomeMessage = () => {
 
             </div>
             <div style={buttons}>
-                <button onClick={() => window.scroll(0,window.screen.height * 0.88)}><img src={arrrow} alt="arrow"/></button>
+                <button  onClick={() => window.scrollBy({'top':window.screen.height, 'behavior': 'smooth'})}><img src={arrrow} alt="arrow"/></button>
             </div>
         </div>
   )

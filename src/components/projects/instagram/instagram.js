@@ -13,7 +13,7 @@ const Instagram = () => {
   return (
     <div className="card-izq instagram">
         <div className="card-izq-img">
-            <h2>Lo de Pochi Sublimaciones</h2>
+            <h2>Integracion con instagram</h2>
             <img src={instagram} alt="instagram"/>
         </div>
         <div className="card-izq-li">

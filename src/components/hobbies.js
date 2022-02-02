@@ -13,11 +13,12 @@ const box = {
     marginTop: '40vh',
     padding: '7%'
 }
-
 const title = {
     fontFamily: 'Raleway'
 }
-
+const images = {
+    marginTop: '10vh',
+}
 const text = {
     paddingRight: '5%',
     paddingLeft: '5%',
@@ -27,7 +28,7 @@ const text = {
 const Hobbies = () => {
     return (
         <div style={box}>
-            <div >
+            <div style={images} >
                 <img  src={hobbies} alt="hobbies"/>
             </div>
             <div >
@@ -40,7 +41,6 @@ const Hobbies = () => {
                 cuando es necesario. Me gusta leer, y de vez en cuando juego con amigos en linea para pasar el rato
                 </h3>
             </div>
-           
         </div>
     )
 }

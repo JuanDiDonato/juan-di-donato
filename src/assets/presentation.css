@@ -8,11 +8,15 @@
     visibility: visible;
     position:relative;
     padding-top: 40vh;
+    animation-duration: 2s;
+    animation-name: show;
 }
 .cover {
-    visibility: hidden;
     position: absolute;
-    margin-top: 45vh
+    margin-top: 45vh;
+    animation-duration: 2s;
+    animation-name: hidden;
+    visibility: hidden;
 }
 
 /* estilo del texto */
@@ -20,4 +24,24 @@ h2 {
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 2%;
+    font-size: 180%;
+}
+
+/* animaciones*/
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes hidden {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
