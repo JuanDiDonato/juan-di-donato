@@ -12,3 +12,7 @@ module.exports = {
     __key: "images"
   }]
 };
+
+module.exports = {
+  pathPrefix: "/juan-di-donato",
+}
