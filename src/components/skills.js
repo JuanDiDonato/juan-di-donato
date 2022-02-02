@@ -64,10 +64,7 @@ const Skills = () => {
                         </h3>
                     </div>
                 </div>
-            </div>
-            
-            {/* DOS */}
-            <div className="sk-grid" id="dos">
+
                 <div id="dj">
                     <div>
                         <img src={django} alt="django"/>
@@ -106,10 +103,7 @@ const Skills = () => {
                         </h3>
                     </div>
                 </div>
-            </div>
 
-            {/* TRES */}
-            <div className="sk-grid" id="tres">
                 <div id="msql">
                     <div>
                         <img src={mysql} alt="mysql"/>
@@ -149,10 +143,6 @@ const Skills = () => {
                     </div>
                 </div>
 
-            </div>
-
-            {/* CUATRO */}
-            <div className="sk-grid" id="cuatro">
                 <div id="git">
                     <div  >
                         <img src={git} alt="github"/>

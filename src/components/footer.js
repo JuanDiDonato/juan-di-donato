@@ -27,8 +27,8 @@ const Footer = () => {
                 <a  href="https://www.linkedin.com/in/juandidonato/" target="null">Linkedin</a>
             </div>
             <div className="ft-element">
-                <img  src={git} alt="github"/>
-                <a s href="https://github.com/JuanDiDonato" target="null">GitHub</a>
+                <img src={git} alt="github"/>
+                <a href="https://github.com/JuanDiDonato" target="null">GitHub</a>
             </div>
         </div>
         <h4>Creado por Juan Di Donato</h4>
