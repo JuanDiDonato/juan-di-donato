@@ -20,13 +20,24 @@
     margin-left: 30px;
     text-align: center;
 }
+.ft-text h5 {
+    color: #003477;
+    font-family: Raleway;
+}
+
 
 /* media query */
 @media (max-width: 768px){
     .ft-grid{
         grid-template-columns: 100%;
     }
+    .ft-element{
+        justify-content: left;
+    }
     .ft-grid img {
         margin-left: 0;
+    }
+    .ft-text{
+        text-align: left;
     }
 }

@@ -33,10 +33,10 @@ const Objectives = () => {
                     Metas
                 </h2>
                 <h3 style={text}>
-                A corto plazo quiero continuar desarrollando mis capacidades y conceguir un trabajo 
+                A corto plazo quiero continuar desarrollando mis capacidades y conseguir un trabajo 
                 para profesionalizarme mas. Python y JavaScript son lenguajes que me gustan, asi que 
                 seguir progresando con Node js o Django REST tambien es un objtivo. 
-                A futuro me gustaria adentrarme en otras areas, como la Cibersegurad, Testing y 
+                A futuro me gustaria adentrarme en otras areas, como Cibersegurad, Testing y 
                 la Inteligencia Artifial. Me intereza conseguir un empleo para continuar 
                 desarrollando mis capacidades, e ingresar a Ingenieria Informatica.
                 </h3>

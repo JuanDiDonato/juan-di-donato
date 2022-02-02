@@ -57,9 +57,9 @@ const Aptitudes = () => {
                     </h2>
                     <h3>
                     ¡Estoy motivado!. La programacion me encanta, hay mucho por hacer
-                     y por aprender a hacer. Quiero expandir mis horizontes, 
-                     para hacer proyectos mas grandes y mejores, y contribuir con el desarrollo
-                     de nuevas aplicaciones y tegnologias.
+                     y por aprender. Quiero expandir mis horizontes, 
+                     hacer proyectos mas grandes y mejores, y poder contribuir con el desarrollo
+                     de nuevas aplicaciones y las nuevas tegnologias.
                     </h3>
                 </div>
             </div>

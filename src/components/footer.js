@@ -11,6 +11,17 @@ import '../assets/footer.css'
 
 // markup
 const Footer = () => {
+
+    const [year,setYear] = React.useState()
+
+    React.useEffect(() => {
+        const get_year = () => {
+            let date = new Date()
+            return date.getFullYear()
+        }
+        setYear(get_year())
+    }, []);
+    
   return (
     <div className="ft-text">
         <div className="ft-grid">
@@ -31,7 +42,10 @@ const Footer = () => {
                 <a href="https://github.com/JuanDiDonato" target="null">GitHub</a>
             </div>
         </div>
-        <h4>Creado por Juan Di Donato</h4>
+        <div>
+            <h5>Creado por Juan Di Donato</h5>
+            <h6>Pagina construida con React - Gatsby Copyright ℗ {year}</h6>
+        </div>
     </div>
 
   )
