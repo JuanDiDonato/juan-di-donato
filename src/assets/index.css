@@ -16,6 +16,9 @@ main {
     width: 100%;
     font-family: 'Roboto';
     font-weight: 700;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /* estilo de los links */
 a{
@@ -37,13 +40,13 @@ button:hover{
 
 /* display de cada componente*/
 #welcome, #presentation{
-    background-color: #e9e9e9;
+    /*background-color: #e9e9e9;*/
     display: flex;
     justify-content: center;
 }
 #hobbies, #obj, #apt , #skl , #prj ,#ftr{
     display: flex;
     justify-content:space-around;
-    background-color: #e9e9e9;
+    /*background-color: #e9e9e9;*/
 }
 

@@ -22,10 +22,10 @@ const Apis = () => {
                     Logica construida con Python 3 / Javascript
                 </li>
                 <li>
-                    Construidas con frameworks DJango REST, Node Express, Flask
+                    Implementacion con frameworks como DJango REST, Node Express y Flask
                 </li>
                 <li>
-                    Integracion con Api's externas, como Telegra, Steam, Mercado Pago, Discord, ect
+                    Integracion con Api's externas, como Telegram, Steam, Mercado Pago, etc
                 </li>
                 <li>
                     Proteccion mediante Tokens JWT

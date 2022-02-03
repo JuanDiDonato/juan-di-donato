@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         <div>
             <h5>Creado por Juan Di Donato</h5>
-            <h6>Pagina construida con React - Gatsby Copyright ℗ {year}</h6>
+            <h6>Pagina construida con Gatsby Copyright ℗ {year}</h6>
         </div>
     </div>
 
