@@ -1,16 +1,14 @@
 import * as React from "react"
-
-// logos
 import right_arrow from '../images/derecha.png'
 import arrow from '../images/abajo.png'
-
-// styles
 import '../assets/presentation.css'
+import moment from 'moment'
+import 'moment/locale/es'
+
 
 const box = {
     marginTop: '30vh',
 }
-
 
 const Presentation = () => {
 
@@ -21,16 +19,13 @@ const Presentation = () => {
     const [year,setYear] = React.useState()
 
     React.useEffect(() => {
-        setUno(document.getElementById('uno'))
-        setDos(document.getElementById('dos'))
-        setTres(document.getElementById('tres'))
-        setCuatro(document.getElementById('cuatro'))
-        const getTime = () => {
-            let now = new Date()
-            return now.getFullYear()
-        }
-        setYear(getTime())
-
+        setUno(document.getElementById('uno'));
+        setDos(document.getElementById('dos'));
+        setTres(document.getElementById('tres'));
+        setCuatro(document.getElementById('cuatro'));
+        const birthday = moment('2001-03-19');
+        const today = moment();
+        setYear(today.diff(birthday,'years'))
     }, []);
     
 
@@ -75,7 +70,7 @@ const Presentation = () => {
                     </div>
                     <div id="dos" className="active cover">
                         <h2>
-                            Me llamo Juan, actualmente tengo {year - 2001} años y soy programador.
+                            Me llamo Juan, actualmente tengo {year} años y soy programador.
                             Vivo y estudio en la ciudad de Mar del Plata, Buenos Aires, Argentina
                         </h2>
                         <div>

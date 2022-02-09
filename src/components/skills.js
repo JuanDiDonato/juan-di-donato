@@ -13,6 +13,7 @@ import node from '../images/node.png'
 import django from '../images/django.png'
 import sequelize from '../images/sequelize.png'
 import docker from '../images/docker.png'
+import mongodb from '../images/mongodb.png'
 
 // styles
 import '../assets/skills.css'
@@ -112,6 +113,18 @@ const Skills = () => {
                         <h3>
                         Es la base de datos que suelo usar en mis proyectos. 
                         Llevo bastante tiempo utilizandola y tengo experiencia en ella.
+                        </h3>
+                    </div>
+                </div>
+
+                <div id="mongodb">
+                    <div>
+                        <img src={mongodb} alt="mongodb"/>
+                    </div>
+                    <div >
+                        <h3>
+                        Para algunos proyectos mas flexibles, donde la velocidad era un objetivo,
+                        me resulto sumamente util, sencilla y rapida, 
                         </h3>
                     </div>
                 </div>
