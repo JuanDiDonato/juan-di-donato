@@ -26,19 +26,19 @@ const Objectives = () => {
     return (
         <div style={box}>
             <div style={images}>
-                <img src={obj} alt="objectives"/>
+                <img src={obj} alt="objectives" />
             </div>
             <div>
                 <h2 style={title}>
                     Metas
                 </h2>
                 <h3 style={text}>
-                A corto plazo quiero continuar desarrollando mis capacidades y conseguir un trabajo 
-                para profesionalizarme mas. Python y JavaScript son lenguajes que me gustan, asi que 
-                seguir progresando con Node js o Django REST tambien es un objtivo. 
-                A futuro me gustaria adentrarme en otras areas, como Cibersegurad, Testing y 
-                la Inteligencia Artifial. Me intereza conseguir un empleo para continuar 
-                desarrollando mis capacidades, e ingresar a Ingenieria Informatica.
+                    A corto plazo quiero continuar desarrollando mis capacidades y conseguir un trabajo
+                    para profesionalizarme mas. Python y JavaScript son lenguajes que me gustan, así que
+                    seguir progresando con Node js o Django REST también es un objetivo.
+                    A futuro me gustaría adentrarme en otras áreas, como Ciberseguridad, Testing e
+                    Inteligencia Artificial. Me interesa conseguir un empleo para poner en practica y continuar
+                    desarrollando mis capacidades.
                 </h3>
             </div>
         </div>
