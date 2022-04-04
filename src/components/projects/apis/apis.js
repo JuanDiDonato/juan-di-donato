@@ -19,10 +19,10 @@ const Apis = () => {
         <div className="card-der-li">
             <ul>
                 <li>
-                    Logica construida con Python 3 / Javascript
+                    Logica construida con Python 3 / Javascript / Java
                 </li>
                 <li>
-                    Implementacion con frameworks como DJango REST, Node Express y Flask
+                    Implementacion con frameworks como DJango REST, Node Express, Flask y Java SpringBoot
                 </li>
                 <li>
                     Integracion con Api's externas, como Telegram, Steam, Mercado Pago, etc
@@ -31,7 +31,7 @@ const Apis = () => {
                     Proteccion mediante Tokens JWT
                 </li>
                 <li>
-                    Bases de datos SQL
+                    Bases de datos SQL y noSQL
                 </li>
                 <li>
                     Despliegue rapido gracias a Docker

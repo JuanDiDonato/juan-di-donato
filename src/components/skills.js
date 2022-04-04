@@ -1,21 +1,20 @@
-
-
-import * as React from "react"
+import * as React from "react";
 
 // logos
-import flask from '../images/flask.png'
-import python from '../images/python.png'
-import js from '../images/javascript.png'
-import react from '../images/react.png'
-import mysql from '../images/mysql.png'
-import git from '../images/git.png'
-import bs from '../images/bs.png'
-import tux from '../images/tux.png'
-import node from '../images/node.png'
-import django from '../images/django.png'
-import sequelize from '../images/sequelize.png'
-import docker from '../images/docker.png'
-import mongodb from '../images/mongodb.png'
+import flask from '../images/flask.png';
+import python from '../images/python.png';
+import js from '../images/javascript.png';
+import react from '../images/react.png';
+import mysql from '../images/mysql.png';
+import git from '../images/git.png';
+import bs from '../images/bs.png';
+import tux from '../images/tux.png';
+import node from '../images/node.png';
+import django from '../images/django.png';
+import sequelize from '../images/sequelize.png';
+import docker from '../images/docker.png';
+import mongodb from '../images/mongodb.png';
+import java from '../images/java.png';
 
 // styles
 import '../assets/skills.css'
@@ -190,7 +189,22 @@ const Skills = () => {
                     <div>
                         <h3>
                             Utilice Flask para hacer apis REST con Python. Es muy sencillo
-                            de usar, por lo que en un inicio lo trabaje mucho.
+                            de usar, por lo que en un inicio lo trabaje bastante. Por su minimalismo,
+                            lo utilizo ocasionalmente para desarrollar microservicios.
+                        </h3>
+                    </div>
+                </div>
+
+                <div id="java">
+                    <div >
+                        <img src={java} alt="java" />
+                    </div>
+                    <div>
+                        <h3>
+                            Desde que estoy estudiando simpre me dijieron que si puedo aprender java
+                            puedo aprender cualquier cosa. Por curiosidad busque acerca del lenguaje,
+                            y me encanto. Hoy por hoy estoy aprendiendo Java, utilizandolo escencialmente
+                            para desarrollar API'S REST, pero no descarto utilizarlo en otros campos en algun futuro.
                         </h3>
                     </div>
                 </div>
