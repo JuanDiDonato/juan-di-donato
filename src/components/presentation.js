@@ -80,7 +80,7 @@ const Presentation = () => {
                 <div id="tres" className="cover">
                     <h2>
                         Me recibí de Técnico Maestro Mayor de Obras en la escuela Técnica N°3 de Mar del Plata
-                        y actualmente estoy estudiando Ingeniería Informática en la Universidad Nacional de Mar del Plata.
+                        y actualmente busco desempeñarme como desarrollador backend con Python, Node js y/o Java.
                     </h2>
                     <div>
                         <button onClick={() => next()}><img src={right_arrow} alt="arrow" /></button>
@@ -88,8 +88,9 @@ const Presentation = () => {
                 </div>
                 <div id="cuatro" className="cover">
                     <h2>
-                        Hago principalmente programación Backend, pero se hacer Frontend y voy camino a convertirme en
-                        FullStack Developer.
+                        Mi meta actual es trabajar para poder seguir capacitandome y llevar a la practica todas mis capacidades, y
+                        comenzar a estudiar una Tecnicatura en sistemas para profesionalizarme aun mas.
+                        
                     </h2>
                     <div>
                         <button onClick={() => window.scrollBy({ 'top': window.screen.height, 'behavior': 'smooth' })}>

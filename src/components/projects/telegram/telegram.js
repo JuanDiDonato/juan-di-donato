@@ -29,6 +29,9 @@ const Telegram = () => {
                         Soporta nombres, links de videos, y listas de reproduccion
                     </li>
                     <li>
+                    Implementacion de entornos virtuales con venv
+                    </li>
+                    <li>
                         Desplegado en Heroku con Docker
                     </li>
                     <div style={{marginTop:'10%'}}>

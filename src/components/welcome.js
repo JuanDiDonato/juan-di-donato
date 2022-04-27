@@ -17,8 +17,8 @@ const messageMarkup = {
     marginTop: '10vh'
 }
 const image = {
-    width: '220px',
-    hight: '220px',
+    width: '230px',
+    hight: '230px',
     borderRadius: '100%',
     margin: '5vh',
     border: '2px solid black'
