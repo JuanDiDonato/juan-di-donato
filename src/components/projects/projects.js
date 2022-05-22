@@ -7,6 +7,7 @@ import Instagram from "./instagram/instagram"
 import Apis from "./apis/apis"
 import Coingecko from "./coingecko/coingecko"
 import BotTinder from "./bot-tinder/botTinder"
+import BotDiscord from "./bot-discord/bot-discord"
 
 const box = {
     marginTop: '8vh',
@@ -35,6 +36,7 @@ const Projects = () => {
           <Apis/>
           <Coingecko/>
           <BotTinder/>
+          <BotDiscord/>
         </div>
 
     </div>

@@ -20,7 +20,9 @@
     position: relative;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #3a39393d;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #9898983d;
 }
 /* textos */
 .ap-box h3 {
@@ -29,7 +31,8 @@
     padding-top: 4%;
 }
 .ap-box h2 {
-    font-family: Raleway
+    font-family: Raleway;
+    font-weight: bold;
 }
 
 /* media query */

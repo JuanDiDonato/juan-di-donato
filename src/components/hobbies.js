@@ -9,7 +9,7 @@ const box = {
     textAlign: 'center',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#9898983d',
+    //backgroundColor: '#9898983d',
     marginTop: '40vh',
     padding: '7%'
 }
