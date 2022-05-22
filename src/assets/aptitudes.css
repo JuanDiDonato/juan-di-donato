@@ -8,10 +8,12 @@
 /* grillas */
 .ap-grid{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     position: relative;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
     background-color: #9898983d;
 }
 .ap-grid2 {

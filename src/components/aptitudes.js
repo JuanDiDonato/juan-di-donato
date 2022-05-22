@@ -39,8 +39,6 @@ const Aptitudes = () => {
                         de trabajo y debatir sobre ella!
                     </h3>
                 </div>
-            </div>
-            <div className="ap-grid2">
                 <div>
                     <h2>
                         Iniciativa
@@ -65,7 +63,33 @@ const Aptitudes = () => {
                     </h3>
                 </div>
             </div>
-        </div>
+            
+            {/* <div className="ap-grid2">
+                <div>
+                    <h2>
+                        Iniciativa
+                    </h2>
+                    <h3>
+                        Tengo muchas ganas de trabajar y seguir aprendiendo.
+                        Constantemente pienso en posibles proyectos que puedan solucionar
+                        los problemas cotidianos que nos encontramos en la web,
+                        y en nuestras aplicaciones diarias!
+                        También ofrezco mi ayuda a los demás si lo necesitan.
+                    </h3>
+                </div>
+                <div>
+                    <h2 >
+                        Motivación
+                    </h2>
+                    <h3>
+                        ¡Estoy motivado!. La programación me encanta, hay mucho por hacer
+                        y por aprender. Quiero expandir mis horizontes,
+                        hacer proyectos mas grandes y mejores, y poder contribuir con el desarrollo
+                        de nuevas aplicaciones y las nuevas tegnologias.
+                    </h3>
+                </div>
+            </div>*/}
+        </div> 
 
     )
 }

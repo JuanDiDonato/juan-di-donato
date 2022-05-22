@@ -1,44 +1,28 @@
 import * as React from "react"
-
+import "../assets/objetives.css"
 // logos
 import hobbies from '../images/hobbies.png'
 
 // styles
 const box = {
-    position: 'relative',
-    textAlign: 'center',
-    justifyContent: 'center',
-    alignItems: 'center',
-    //backgroundColor: '#9898983d',
     marginTop: '40vh',
-    padding: '7%'
 }
-const title = {
-    fontFamily: 'Raleway'
-}
-const images = {
-    marginTop: '10vh',
-}
-const text = {
-    paddingRight: '5%',
-    paddingLeft: '5%',
-    paddingTop: '2%'
-}
+
 
 const Hobbies = () => {
     return (
-        <div style={box}>
-            <div style={images} >
+        <div className="box" style={box}>
+            <div className="images" >
                 <img  src={hobbies} alt="hobbies"/>
             </div>
             <div >
-                <h2 style={title}>
+                <h2 className="title">
                     Hobbies
                 </h2>
-                <h3 style={text}>
+                <h3 className="text">
                 En mis tiempos libres me gusta hacer actividad fisica, caminar y andar en bici. 
                 Soy aficionado al ciclismo, me gusta hacer viajes largos, y arreglar mi propia bici 
-                cuando es necesario. Me gusta leer, y de vez en cuando juego con amigos en linea para pasar el rato
+                cuando es necesario. Me gusta leer, y de vez en cuando juego con amigos en linea para pasar el rato.
                 </h3>
             </div>
         </div>

@@ -1,38 +1,21 @@
 import * as React from "react"
+import "../assets/objetives.css"
 
 // logos
 import obj from '../images/objetivos.png'
 
-const box = {
-    position: 'relative',
-    textAlign: 'center',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: '7%'
-}
-const title = {
-    fontFamily: 'Raleway'
-}
-const images = {
-    marginTop: '10vh',
-}
-const text = {
-    paddingRight: '5%',
-    paddingLeft: '5%',
-    paddingTop: '2%',
-}
 
 const Objectives = () => {
     return (
-        <div style={box}>
-            <div style={images}>
+        <div className="box">
+            <div className="images">
                 <img src={obj} alt="objectives" />
             </div>
             <div>
-                <h2 style={title}>
+                <h2 className="title">
                     Metas
                 </h2>
-                <h3 style={text}>
+                <h3 className="text">
                     A corto plazo quiero continuar desarrollando mis capacidades y trabajar
                     para profesionalizarme mas. Python, JavaScript Y Java son lenguajes que me gustan, así que
                     seguir progresando con Node js, Django REST o SpringBoot también es un objetivo.
