@@ -1,7 +1,7 @@
 import * as React from "react"
 
 // images
-import Perfil from '../images/perfil.jpg'
+import Perfil from '../images/perfil2.jpg'
 import arrrow from '../images/abajo.png'
 
 // styles

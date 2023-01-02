@@ -80,7 +80,7 @@ const Presentation = () => {
                 <div id="tres" className="cover">
                     <h2>
                         Me recibí de Técnico Maestro Mayor de Obras en la escuela Técnica N°3 de Mar del Plata
-                        y actualmente busco desempeñarme como desarrollador backend con Python, Node js y/o Java.
+                        y actualmente me desempeño como desarrollador backend con Python, Java, junto con Spring.
                     </h2>
                     <div>
                         <button onClick={() => next()}><img src={right_arrow} alt="arrow" /></button>
@@ -89,7 +89,7 @@ const Presentation = () => {
                 <div id="cuatro" className="cover">
                     <h2>
                         Mi meta actual es trabajar para poder seguir capacitandome y llevar a la practica todas mis capacidades, y
-                        comenzar a estudiar una Tecnicatura en sistemas para profesionalizarme aun mas.
+                        continuar estudiando una carrera relacionada con la programacion.
                         
                     </h2>
                     <div>

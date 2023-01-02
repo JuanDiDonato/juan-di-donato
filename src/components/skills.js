@@ -5,7 +5,7 @@ import flask from '../images/flask.png';
 import python from '../images/python.png';
 import js from '../images/javascript.png';
 import react from '../images/react.png';
-import mysql from '../images/mysql.png';
+import sql from '../images/sql.png';
 import git from '../images/git.png';
 import bs from '../images/bs.png';
 import tux from '../images/tux.png';
@@ -15,6 +15,8 @@ import sequelize from '../images/sequelize.png';
 import docker from '../images/docker.png';
 import mongodb from '../images/mongodb.png';
 import java from '../images/java.png';
+import spring from '../images/spring.png'
+import aws from '../images/aws.png'
 
 // styles
 import '../assets/skills.css'
@@ -108,12 +110,13 @@ const Skills = () => {
 
                 <div id="msql">
                     <div>
-                        <img src={mysql} alt="mysql" />
+                        <img src={sql} alt="mysql" />
                     </div>
                     <div >
                         <h3>
-                            Es la base de datos que suelo usar en mis proyectos.
-                            Llevo bastante tiempo utilizándola y tengo experiencia en ella.
+                            Urilizo frecuentemente bases de datos SQL.
+                            Manejo tanto MySQL como PostgreSQL, y complementos para la gestion 
+                            de las bases, como Liquibase.
                         </h3>
                     </div>
                 </div>
@@ -151,7 +154,7 @@ const Skills = () => {
                         <h3>
                             Amo Linux. Actualmente lo utilizo como sistema operativo principal.
                             Probe varias distribuciones, desde Ubuntu y sus derivados
-                            (Xubuntu, Ubuntu Mate, Lubunut), Debian, Kali Linux, ElementarY OS,
+                            (Xubuntu, Ubuntu Mate, Lubunut), Debian, Kali Linux, Elementary OS,
                             y Manjaro MATE (Basada en ArchLinux)
                         </h3>
                     </div>
@@ -164,7 +167,9 @@ const Skills = () => {
                     <div >
                         <h3>
                             Git y Github son muy importantes, desde que aprendí a utilizar git y su control de
-                            versiones, y github para guardar mis proyectos, los uso siempre
+                            versiones, y github para guardar mis proyectos, los uso siempre.
+                            Tambien manejo herramientas potentes, como los Actions de Github para hacer deploys,
+                            y validaciones para el codigo en los Pull Request, para evaluar la calidad del codigo.
                         </h3>
                     </div>
                 </div>
@@ -203,11 +208,36 @@ const Skills = () => {
                         <h3>
                             Desde que estoy estudiando simpre me dijieron que si puedo aprender java
                             puedo aprender cualquier cosa. Por curiosidad busque acerca del lenguaje,
-                            y me encanto. Hoy por hoy estoy aprendiendo Java, utilizandolo escencialmente
-                            para desarrollar API'S REST, pero no descarto utilizarlo en otros campos en algun futuro.
+                            y me encanto. Hoy en dia utilizo Java en mi vida diaria y me siento comodo con el.
                         </h3>
                     </div>
                 </div>
+
+                <div id="spring">
+                    <div >
+                        <img src={spring} alt="spring" />
+                    </div>
+                    <div>
+                        <h3>
+                            Justo despues de las bases de Java comence con SpringBoot, lo utilizo ampliamente para crear Apis, 
+                            pero tambien desarrolle modulos independientes, como modulos de seguridad para exportar a varios proyectos.
+                            Dispongo de un buen manejo de beans, asi como otras tecnologias incluidas, como Jpa.
+                        </h3>
+                    </div>
+                </div>
+
+                <div id="aws">
+                    <div >
+                        <img src={aws} alt="aws" />
+                    </div>
+                    <div>
+                        <h3>
+                            Estoy ampliando mis conocimientos en los servicios de Amazon. Ya trabaje con funciones Lambdas de Aws hechas en python, 
+                            con docker y Aws Sam. Tambien desarrolle Actios de Github para el deploy de las mismas.
+                        </h3>
+                    </div>
+                </div>
+
             </div>
         </div>
     )

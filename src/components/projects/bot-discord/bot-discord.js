@@ -24,6 +24,9 @@ const BotDiscord = () => {
                     Uso de Programacion orientada a objetos y Threading
                 </li>
                 <li>
+                    Aplicacion de conceptos SOLID (en github buscar la rama correcta :P)
+                </li>
+                <li>
                     Base de datos con MongoDB y PyMongo
                 </li>
                 <li>

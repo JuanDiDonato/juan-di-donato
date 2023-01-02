@@ -16,14 +16,15 @@ const Objectives = () => {
                     Metas
                 </h2>
                 <h3 className="text">
-                    A corto plazo quiero continuar desarrollando mis capacidades y trabajar
-                    para profesionalizarme mas. Python, JavaScript Y Java son lenguajes que me gustan, así que
-                    seguir progresando con Node js, Django REST o SpringBoot también es un objetivo.
+                    A corto plazo quiero continuar desarrollando mis capacidades y profesionalizarme.
+                    Python, JavaScript Y Java son lenguajes que me gustan, así que
+                    seguir progresando con Node js, Django REST o SpringBoot también es un objetivo, asi como profundizar 
+                    en otras tecnologias, como Amazon Web Services, Github Actions, etc.
+                    Trabajo mucho con la Programacion Orientada a Objetos, y tengo muy en claro los conceptos de SOLID, y trabajo para aplicarlos en todos mis proyectos.
                     A futuro me gustaría adentrarme en otras áreas, como Ciberseguridad, Testing e
                     Inteligencia Artificial y Robotica.
                     Tambien quiero seguir estudiando, y no descarto a futuro ingresar a la Universidad, en carreras como
-                    Ing. en Sistemas, Ing en Informatica o Ing. en Computacion (dentro del campo de la informatica) y otras
-                    por fuera como Filosofia o Diseño Grafico.
+                    Ing. en Sistemas, Ing en Informatica o Ing. en Computacion (dentro del campo de la informatica).
                 </h3>
             </div>
         </div>
