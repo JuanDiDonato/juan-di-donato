@@ -22,13 +22,13 @@ const Apis = () => {
                     Logica construida con Python 3 / Javascript / Java
                 </li>
                 <li>
-                    Aplicacion de conceptos SOLID
-                </li>
-                <li>
                     Implementacion con frameworks como DJango REST, Node Express, Flask y Java SpringBoot
                 </li>
                 <li>
-                    Integracion con Api's externas, como Telegram, Steam, Mercado Pago, Riot Games, etc
+                    Aplicacion de conceptos SOLID
+                </li>
+                <li>
+                    Integracion con Api's externas, como Telegram, Steam, Mercado Pago, etc
                 </li>
                 <li>
                     Proteccion mediante Tokens JWT

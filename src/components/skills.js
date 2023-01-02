@@ -15,8 +15,9 @@ import sequelize from '../images/sequelize.png';
 import docker from '../images/docker.png';
 import mongodb from '../images/mongodb.png';
 import java from '../images/java.png';
-import spring from '../images/spring.png'
-import aws from '../images/aws.png'
+import spring from '../images/spring.png';
+import aws from '../images/aws.png';
+
 
 // styles
 import '../assets/skills.css'
@@ -114,7 +115,7 @@ const Skills = () => {
                     </div>
                     <div >
                         <h3>
-                            Urilizo frecuentemente bases de datos SQL.
+                            Utilizo frecuentemente bases de datos SQL.
                             Manejo tanto MySQL como PostgreSQL, y complementos para la gestion 
                             de las bases, como Liquibase.
                         </h3>
@@ -154,7 +155,7 @@ const Skills = () => {
                         <h3>
                             Amo Linux. Actualmente lo utilizo como sistema operativo principal.
                             Probe varias distribuciones, desde Ubuntu y sus derivados
-                            (Xubuntu, Ubuntu Mate, Lubunut), Debian, Kali Linux, Elementary OS,
+                            (Xubuntu, Ubuntu Mate, Lubunut), Debian, Kali Linux, ElementarY OS,
                             y Manjaro MATE (Basada en ArchLinux)
                         </h3>
                     </div>
@@ -209,6 +210,7 @@ const Skills = () => {
                             Desde que estoy estudiando simpre me dijieron que si puedo aprender java
                             puedo aprender cualquier cosa. Por curiosidad busque acerca del lenguaje,
                             y me encanto. Hoy en dia utilizo Java en mi vida diaria y me siento comodo con el.
+                        
                         </h3>
                     </div>
                 </div>

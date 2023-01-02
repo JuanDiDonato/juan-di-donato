@@ -49,7 +49,7 @@
 }
 
 #rc {
-    background-color: #5165863d  ;
+    background-color: #000c213d  ;
     border-radius: 10px;
     padding: 2%;
     margin: 2%;
@@ -121,17 +121,15 @@
     margin: 2%;
 }
 #spring{
-    background-color:  #57c7163d   ;
+    background-color:  #94c5383d   ;
     border-radius: 10px;
     padding: 2%;
     margin: 2%;
 }
 #aws{
-    background-color:  #c780163d   ;
+    background-color:  #c57c383d   ;
     border-radius: 10px;
     padding: 2%;
     margin: 2%;
 }
-
-
 
