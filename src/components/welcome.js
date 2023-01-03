@@ -1,7 +1,6 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
-// images
-import Perfil from '../images/perfil.jpg'
 import arrrow from '../images/abajo.png'
 
 // styles
@@ -44,7 +43,7 @@ const WelcomeMessage = () => {
                 <h3 style={title}>
                     Software Developer
                 </h3>
-                <img style={image} src={Perfil} alt="Juan Di Donato"/>
+                <StaticImage src="../images/perfil3.jpg" alt="Juan" style={image}/>
 
             </div>
             <div style={buttons}>

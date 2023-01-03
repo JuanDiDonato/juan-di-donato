@@ -1,12 +1,9 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
 // styles
 import '../card-der.css'
 import '../apis/apis.css'
-
-
-// images
-import api from '../../../images/api.png'
 
 // markup
 const Apis = () => {
@@ -14,7 +11,7 @@ const Apis = () => {
     <div className="card-der apis">
         <div className="card-der-img">
             <h2>Api's REST</h2>
-            <img src={api} alt="apis"/>
+            <StaticImage src="../../../images/api.png" alt="Apis" />
         </div>
         <div className="card-der-li">
             <ul>

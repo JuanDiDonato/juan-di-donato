@@ -1,4 +1,4 @@
-module.exports = {
+/*module.exports = {
   siteMetadata: {
       title: `Juan Di Donato`,
     siteUrl: `https://www.yourdomain.tld`
@@ -11,8 +11,17 @@ module.exports = {
     },
     __key: "images"
   }]
-};
+};*/
 
 module.exports = {
+  siteMetadata: {
+    title: `Juan Di Donato`,
+  siteUrl: `https://juandidonato.github.io/juan-di-donato/`
+  },
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+  ],
   pathPrefix: "/juan-di-donato",
 }
